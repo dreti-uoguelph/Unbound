@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Unbound", "Unbound\Unbound.vcxproj", "{671B2498-70FF-492D-94BC-B9604CB66324}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnboundModelCompiler", "UnboundModelCompiler\UnboundModelCompiler.vcxproj", "{A0DF0BF7-AA9C-4A29-882D-B60EF564B9DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnboundShaderCompiler", "UnboundShaderCompiler\UnboundShaderCompiler.vcxproj", "{81EDDB7B-41A4-4F1A-A3B9-36D4A8BEC153}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnboundTextureCompiler", "UnboundTextureCompiler\UnboundTextureCompiler.vcxproj", "{6FB4781E-E72B-4873-9920-BE038EFA9DD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnboundProjectManager", "UnboundProjectManager\UnboundProjectManager.vcxproj", "{9185A814-AEE6-43B2-B56D-277BFD6291F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{671B2498-70FF-492D-94BC-B9604CB66324} = {671B2498-70FF-492D-94BC-B9604CB66324}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{671B2498-70FF-492D-94BC-B9604CB66324}.Debug|x64.ActiveCfg = Debug|x64
+		{671B2498-70FF-492D-94BC-B9604CB66324}.Debug|x64.Build.0 = Debug|x64
+		{671B2498-70FF-492D-94BC-B9604CB66324}.Release|x64.ActiveCfg = Release|x64
+		{671B2498-70FF-492D-94BC-B9604CB66324}.Release|x64.Build.0 = Release|x64
+		{A0DF0BF7-AA9C-4A29-882D-B60EF564B9DD}.Debug|x64.ActiveCfg = Debug|x64
+		{A0DF0BF7-AA9C-4A29-882D-B60EF564B9DD}.Debug|x64.Build.0 = Debug|x64
+		{A0DF0BF7-AA9C-4A29-882D-B60EF564B9DD}.Release|x64.ActiveCfg = Release|x64
+		{A0DF0BF7-AA9C-4A29-882D-B60EF564B9DD}.Release|x64.Build.0 = Release|x64
+		{81EDDB7B-41A4-4F1A-A3B9-36D4A8BEC153}.Debug|x64.ActiveCfg = Debug|x64
+		{81EDDB7B-41A4-4F1A-A3B9-36D4A8BEC153}.Debug|x64.Build.0 = Debug|x64
+		{81EDDB7B-41A4-4F1A-A3B9-36D4A8BEC153}.Release|x64.ActiveCfg = Release|x64
+		{81EDDB7B-41A4-4F1A-A3B9-36D4A8BEC153}.Release|x64.Build.0 = Release|x64
+		{6FB4781E-E72B-4873-9920-BE038EFA9DD8}.Debug|x64.ActiveCfg = Debug|x64
+		{6FB4781E-E72B-4873-9920-BE038EFA9DD8}.Debug|x64.Build.0 = Debug|x64
+		{6FB4781E-E72B-4873-9920-BE038EFA9DD8}.Release|x64.ActiveCfg = Release|x64
+		{6FB4781E-E72B-4873-9920-BE038EFA9DD8}.Release|x64.Build.0 = Release|x64
+		{9185A814-AEE6-43B2-B56D-277BFD6291F2}.Debug|x64.ActiveCfg = Debug|x64
+		{9185A814-AEE6-43B2-B56D-277BFD6291F2}.Debug|x64.Build.0 = Debug|x64
+		{9185A814-AEE6-43B2-B56D-277BFD6291F2}.Release|x64.ActiveCfg = Release|x64
+		{9185A814-AEE6-43B2-B56D-277BFD6291F2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A19935B-F733-4B99-A25C-9984B0945D64}
+	EndGlobalSection
+EndGlobal

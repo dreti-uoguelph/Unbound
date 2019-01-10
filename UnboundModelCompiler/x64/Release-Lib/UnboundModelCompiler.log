@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  CompileModel.cpp
+  LoadModel.cpp
+  UnboundModelCompiler.cpp
+  WriteModel.cpp
+  UnboundModelCompiler.vcxproj -> C:\Unbound\UnboundModelCompiler\..\Unbound\Libraries\Unbound\UnboundModelCompiler.lib
